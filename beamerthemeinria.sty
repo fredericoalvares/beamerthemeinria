@@ -24,12 +24,15 @@
 
 \setlength{\parskip}{0.5em}
 %\setlength{\itemsep}{1em}
-\setlist[itemize]{itemsep=0.5cm}
+\setlist[itemize]{itemsep=0.25cm}
 \setlist[itemize,1]{label=$\bullet$}
 \setlist[itemize,2]{label=$\circ$}
 \setlist[itemize,3]{label=$\rightarrow$}
 \setlist[itemize,4]{label=$\minus$}
-
+\setlist[enumerate]{itemsep=0.25cm}
+\setlist[enumerate,1]{%
+  label=\arabic*.,
+}
 
 
 \setbeamertemplate{navigation symbols}{}
